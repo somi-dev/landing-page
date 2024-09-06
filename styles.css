@@ -139,3 +139,29 @@ button {
     color: #1F2937;
     margin-left: 300px;
 }
+
+/* NEWSLETTER SECTION */
+
+.newsletter {
+    padding: 64px 0;
+    align-self: center;
+}
+
+.newsletter-container {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 96px;
+    color: white;
+    background-color: #3882F8;
+    padding: 32px 96px;
+}
+
+.newsletter-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.newsletter button {
+    border: 2px solid white;
+}
