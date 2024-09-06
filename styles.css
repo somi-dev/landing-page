@@ -118,3 +118,24 @@ button {
 .info {
     width: 150px;
 }
+
+/* QUOTE SECTION */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 64px 0;
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-subtext {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1F2937;
+    margin-left: 300px;
+}
