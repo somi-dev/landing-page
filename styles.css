@@ -86,3 +86,34 @@ button {
     border-radius: 8px;
     border: none;
 }
+
+/* RANDOM INFO SECTION */
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 32px 0 64px;
+}
+
+.content-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-top: 32px;
+}
+
+.info, .content-title {
+    text-align: center;
+}
+
+.info img {
+    border-radius: 25px;
+    border: 2px solid #3882F8; 
+}
+
+.info img, .info {
+    width: 150px;
+    height: 150px;
+}
