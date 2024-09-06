@@ -166,3 +166,13 @@ button {
 .newsletter button {
     border: 2px solid white;
 }
+
+/* FOOTER SECTION */
+
+.footer {
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 32px 0;
+}
