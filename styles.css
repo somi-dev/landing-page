@@ -1,3 +1,5 @@
+/* GENERAL */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +17,13 @@ body {
     display: flex;
     flex-direction: column;
     overflow: auto;
+}
+
+.header,
+.content,
+.quote,
+.newsletter {
+    flex-grow: 1;
 }
 
 /* HEADER SECTION */
@@ -105,13 +114,14 @@ button {
     padding-top: 32px;
 }
 
-.info, .content-title {
+.info,
+.content-title {
     text-align: center;
 }
 
 .info img {
     border-radius: 25px;
-    border: 2px solid #3882F8; 
+    border: 2px solid #3882F8;
     width: 150px;
     height: 150px;
 }
