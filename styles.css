@@ -37,13 +37,18 @@ body {
 }
 
 .logo {
-    font: 24px;
+    font-size: 24px;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
 .logo-links {
     display: flex;
     justify-content: space-between;
+}
+
+.links {
+    align-self: flex-end;
 }
 
 .logo-links,
